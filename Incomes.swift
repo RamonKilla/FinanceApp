@@ -88,7 +88,7 @@ struct Incomes: View {
     @StateObject private var viewModel = IncomeViewModel()
     @State private var incomeName = ""
     @State private var incomeAmount = ""
-    let groupOfItem: [String] = ["🍔 Food", "🧾 Purchases", "🏠 Home", "🚎 Transport", "🚗 Cars", "🎉 Party", "💻 Network", "💵 Finances", "📈 Invest", "？Other"]
+    let groupOfItem: [String] = ["🍔 Food", "🧾 Purchases", "🏠 Home", "🚎 Transport", "🚗 Cars", "🎉 Party", "💻 Network", "💵 Finances", "📈 Invest", " ？Other"]
     @State private var incomeGroup = "🍔 Food"
     var body: some View {
         
